@@ -123,11 +123,36 @@ body {
   float: left;
 }
 .filter-bar {
+  margin-top: 40px;
   background: gray;
-  height: 30px;
+  height: 40px;
   line-height: 30px;
   padding: 0 20px;
 }
 .buy-now-cart {
   height: 100%;
+}
+.cart-item {
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 10px 0;
+  padding: 10px;
+}
+.cart-item .image-holder {
+  display: inline-block;
+  width: 30%;
+  height: 260px;
+}
+.cart-item .image-holder img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 0 0 5px black;
+}
+.cart-item .item-detail {
+  display: inline-block;
+  width: 65%;
+  margin-left: 10px;
+  height: 260px;
+  float: right;
 }

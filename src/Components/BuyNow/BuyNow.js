@@ -33,13 +33,16 @@ class BuyNow extends Component {
           </div>
           <div className="cart-view">
             {displayCart.map((item, index) => (
-              <div key={item.id} className="product">
-                <img src={item.image} alt={item.description} />
-                <div>
-                  <b>{item.title}</b>
+              <div key={item.id} className="cart-item">
+                <div className="image-holder">
+                  <img src={item.image} alt={item.description} />
                 </div>
-                <div>Price: {item.price}</div>
-                <div>Description :{item.description}</div>
+                <div className="item-detail">
+                  <b>{item.title}</b>
+
+                  <div>Price: {item.price}</div>
+                  <div>Description :{item.description}</div>
+                </div>
               </div>
             ))}
           </div>
