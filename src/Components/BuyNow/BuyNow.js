@@ -40,7 +40,7 @@ class BuyNow extends Component {
                 <div className="item-detail">
                   <b>{item.title}</b>
 
-                  <div>Price: {item.price}</div>
+                  <div>Price: Rs. {item.price}</div>
                   <div>Description :{item.description}</div>
                 </div>
               </div>
