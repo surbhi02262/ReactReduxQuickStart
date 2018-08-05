@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.top-header {
+  height: 80px;
+  background: #222;
+}
+.top-header .logo {
+  width: auto;
+  height: 80px;
+  display: inline-block;
+}
+.top-header .header-title {
+  font-size: 20px;
+  color: white;
+  float: left;
+  line-height: 80px;
+}
+.top-header .logo img {
+  width: 80;
+  height: 100%;
+  float: left;
+}
+.main-menu {
+  float: right;
+}
+.main-menu ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+}
+.main-menu ul li {
+  float: left;
+}
+.main-menu ul li a {
+  line-height: 80px;
+  margin: 0 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.main-menu ul li a:hover {
+  color: red;
+}
+.menu-bar {
+  max-width: 1400px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.menu-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.drop-menu {
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+.menu-bar ul li.list-item {
+  float: left;
+  position: relative;
+  text-align: center;
+}
+.menu-bar ul li.list-item:hover {
+  background: skyblue;
+}
+.menu-bar ul li.list-item a {
+  text-decoration: none;
+  color: black;
+}
+.menu-bar ul li.list-item:hover .drop-menu {
+  display: block;
+  position: fixed;
+  left: 0;
+  padding: 10px;
+  background: skyblue;
+  height: 80%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0 1%;
+  width: 98%;
+}
+.menu-bar ul li.list-item li {
+  margin: 0;
+  padding: 0 5px;
+  line-height: 30px;
+  text-align: left;
+}
+.product {
+  display: inline-block;
+  width: 220px;
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.product img {
+  width: 100%;
+}
+.view-products {
+  text-align: center;
+}
+.cart-view {
+  width: 70%;
+  padding: 10px;
+  margin: 15px;
+  float: left;
+}
+.payment {
+  width: 20%;
+  padding: 10px;
+  margin: 15px;
+  float: left;
+}
+.filter-bar {
+  background: gray;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+}
+.buy-now-cart {
+  height: 100%;
+}
